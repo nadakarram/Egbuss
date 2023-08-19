@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>get way</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="f.css">
+</head>
+<body theme="light">
+    <nav class="navbar navbar-expand-md  " style="background-color: white;" data-bs-theme="light">
+        <div class="container-fluid">
+          <a class="navbar-brand  justify-content-start" href="#">Transport</a>
+          <button class="navbar-toggler btn btn-dark " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link b" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link b  " href="index3.html">Contact Us</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link active b" href="index2.html"  aria-current="page" style="color: #ff5844;">get way</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link b" href="about.html">About US</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link " href=""></a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link " href="#"></a>
+              </li>
+              <input type="checkbox" id="theme-toggle">
+              <label for="theme-toggle"></label>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" style="height: 600px;" data-bs-theme="light">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner h-100">
+          <div class="carousel-item active h-100" data-bs-interval="10000">
+            <img src="مواصلات-مصر-مواعيد-الأتوبيسات-2022.png" class="d-block w-100 h-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-light">Welcome to our site to get the easiest way </h5>
+              <p class="text-light">Welcome to our site to get the easiest way to reach your destination easily. You just have to write from anywhere you are to wherever you want to go until we tell you the easiest bus you can take to reach your destination.</p>
+            </div>
+          </div>
+          <div class="carousel-item h-100" data-bs-interval="2000">
+            <img src="مواصلات-مصر-الأتوبيسات-التي-طرحت-مؤخرًا-مجهزة-لذوي-الإعاقة.webp" class="d-block w-100 h-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-light">  Welcome to our site to get the easiest way</h5>
+              <p class="text-light">Welcome to our site to get the easiest way to reach your destination easily. You just have to write from anywhere you are to wherever you want to go until we tell you the easiest bus you can take to reach your destination.</p>
+            </div>
+          </div>
+          <div class="carousel-item h-100">
+            <img src="3337-1.jpg" class="d-block w-100 h-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-light">Welcome to our site to get the easiest way </h5>
+              <p class="text-light">Welcome to our site to get the easiest way to reach your destination easily. You just have to write from anywhere you are to wherever you want to go until we tell you the easiest bus you can take to reach your destination.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev" >
+          <span class="carousel-control-prev-icon text-light" aria-hidden="true"></span>
+          <span class="visually-hidden ">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <br>
+<br>
+<hr>
+<div class="container  " style="color: #ff5844;"><h1 class=" text-center " style="color: #ff5844;">  Get Away</h1> </div>
+<hr>    
+<br>
+<br>
+
+
+      <div class="row align-content-center mt-5"> 
+        <div class="form-group m-auto justify-content-center d-flex">
+        <label class="form-label fs-4 me-3" style="color: #ff5844;"> from:</label>
+        <input type="text" class="form-control form-control-lg w-75" id="start" placeholder="for example from asba al nakhl " data-bs-toggle="popover" title="For example" data-bs-content="Badr City">
+      </div>
+      <br>
+      <br>
+      <div class="form-group m-auto justify-content-center d-flex mt-5">
+        <label class="form-label fs-4 me-5" style="color: #ff5844;"> to:</label>
+          <input type="text" class="form-control form-control-lg  w-75" id="end" placeholder="for example to el ataba " data-bs-toggle="popover" title="For example" data-bs-content="Zoo">
+        </div>
+      </div>
+      <br>
+      <div style="text-align: center;">
+        
+        <button type="submit" class="btn" id="btn" style="background-color: #ff5844; color: white;">Search</button>
+      </div>
+      <br>
+      <div class="countainer "style="height: 600px;" id="all">
+        <div class="row  text-center justify-content-center">
+          <div id="bus1" class="col-10">
+            <div class="card" >
+              <div class="card-header" style="height:35px;">
+                <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; "> BUS1</i>
+              </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span style="color: red;">Start:</span><span> Badr City</span></li>
+                <li class="list-group-item"><span style="color: red;">Final destination:</span><span> Demerdash</span></li>
+                <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span>  Badr City - Madinaty Gates - Suez Circle - Km 4.5 - Almaza City Center - Al Ahly Club - Ahmed Fakhry - First Makram - First Abbas - Rabaa - Al-Azhar University - Seka Club - Ministry of Finance - Abbassia - Demerdash - Ghamra - Demerdash</span></li>
+                </ul>
+            </div>
+          </div>
+          <div id="bus2" class="col-10">
+            <div class="card" >
+              <div class="card-header" style="height:35px;">
+                <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; ">  BUS2</i>
+              </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span style="color: red;">Start:</span><span> El-Fangary Bridge</span></li>
+                <li class="list-group-item"><span style="color: red;">Final destination:</span><span> Sekkat El-Waili</span></li>
+                <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span> El-Fangary Bridge - Extension of Ramses - El-Mosheer Axis - The American University - El-Fangary Bridge - Ninety Street - Gardens Department - Sekkat El-Waili</span></li>
+                </ul>
+            </div>
+          </div>
+          <div id="bus3"class="col-10">
+            <div class="card" >
+            <div class="card-header" style="height:35px;">
+              <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; ">  BUS3</i>
+            </div>
+              <ul class="list-group list-group-flush">
+              <li class="list-group-item"><span style="color: red;">Start:</span><span> Bashtil</span></li>
+              <li class="list-group-item"><span style="color: red;">Final destination:</span><span> Al-Umraniya </span></li>
+              <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span>Bashtil - New and Old Heart Institute - Ahmed Orabi - Sphinx - Mustafa Mahmoud - Hero Ahmed Abdel Aziz - Cleopatra - Serum and Vaccine - Al Thawra Street - Dokki - Ministry of Agriculture - Giza Security Directorate - Cairo University - Zoo - Giza Square - The mother of the Egyptians - Al-Umraniya</span></li>
+              </ul>
+          </div>
+        </div>
+          <div id="bus4"class="col-10">
+            <div class="card" >
+              <div class="card-header" style="height:35px;">
+                <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; ">  BUS4</i>
+              </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span style="color: red;">Start:</span><span> Mamluks </span></li>
+                <li class="list-group-item"><span style="color: red;">Final destination:</span><span> New Nozha</span></li>
+                <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span>Mamluks - Manial Street - Al-Qasr Al-Ainy - Al-Qasr Al-Ainy Street - Al-Tahrir - Bab Al-Louk - Abdeen - Ahmed Maher - Bab Al-Khalq - Al-Musky - Bab Al-Shariya - Al-Jaish Square - Abdo Pasha - Al-Abbasiya - Faculty of Engineering - Ain Shams University - Al-Qobba Bridge - Roxy - Al-Khalifa Al-Ma'mun - Salah Al-Din - Safir - Triumph - Saint Fatima - Al-Hijaz Square - Alf Maskan - Arabs - Garage - Berti - New Nozha</span></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="row row-cols-4 text-center justify-content-center ">
+          <div id="bus5"class="col-10">
+            <div class="card" >
+              <div class="card-header" style="height:35px;">
+                <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; ">  BUS5</i>
+              </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span style="color: red;">Start:</span><span> Umbrellas </span></li>
+                <li class="list-group-item"><span style="color: red;">Final destination:</span><span> Girls College</span></li>
+                <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span>Umbrellas - Abu Wafia - Al-Taraa Al-Boulaqia Street - Khulusi - Ahmed Helmy - Qalli - Ramses - Ghamra - Demerdash - Abbassia - Ain Shams University - Al-Kobba Bridge - Al-Khalifa Al-Mamoun - Roxy - Korba - Almaza Central - Al-Marghani - Girls College</span></li>
+                </ul>
+            </div>
+          </div>
+          <div id="bus6"class="col-10">
+            <div class="card">
+              <div class="card-header" style="height:35px;">
+                <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; ">  BUS6</i>
+              </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span style="color: red;">Start:</span><span> Al-Omraniya </span></li>
+                <li class="list-group-item"><span style="color: red;">Final destination:</span><span> Ataba Garage</span></li>
+                <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span>Al-Omraniya - Giza - University Bridge - Fom Al-Khaleej - Al-Sayeda Zeinab - Port Said Street - Al-Azhar Street - Ataba Garage</span></li>
+                </ul>
+            </div>
+          </div>
+          <div id="bus7"class="col-10">
+            <div class="card" >
+              <div class="card-header" style="height:35px;">
+                <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; ">  BUS7</i>
+              </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span style="color: red;">Start:</span><span> Nazlet Al-Batran </span></li>
+                <li class="list-group-item"><span style="color: red;">Final destination:</span><span> Ahmed Helmy</span></li>
+                <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span>Nazlet Al-Batran - Mariouteya - Al-Haram Street - Giza - Murad Street - Al-Qasr Al-Ainy - Abdel Moneim Riad - Ahmed Helmy</span></li>
+                </ul>
+            </div>
+          </div>
+          <div id="bus8"class="col-10">
+            <div class="card" >
+              <div class="card-header" style="height:35px;">
+                <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; ">  BUS8</i>
+              </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span style="color: red;">Start:</span><span> Aspico </span></li>
+                <li class="list-group-item"><span style="color: red;">Final destination:</span><span> Ataba</span></li>
+                <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span>Aspico - Peace Stop - Awal Jamal - Canal Market - Berti Badar - Badr Garden - Al Arbaeen - Garage - Arabs - Alf Maskan - Suez Bridge - Recruitment - Court - Maryland - Roxy - Al-Khalifa Al-Mamoun - Al-Qubba Bridge - Ain Shams University - Abbassia - Army Square - Bab Al-Shariya - Ataba</span></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="row row-cols-4 text-center justify-content-center">
+          <div id="bus9"class="col-10">
+            <div class="card" >
+              <div class="card-header" style="height:35px;">
+                <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; ">  BUS9</i>
+              </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span style="color: red;">Start:</span><span>  Al-Thawra Street</span></li>
+                <li class="list-group-item"><span style="color: red;">Final destination:</span><span> First Settlement</span></li>
+                <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span>Al-Thawra Street - Almaza Central - Girls College - Khader Al-Tuni - Rabaa - Abbas Al-Akkad - Mustafa Al-Nahhas - Eighth District - Al-Manhal - Tabba - Tenth District - Zahraa Nasr City - First Settlement</span></li>
+                </ul>
+            </div>
+          </div>
+          <div id="bus10"class="col-10">
+            <div class="card" >
+              <div class="card-header" style="height:35px;">
+                <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; ">  BUS10</i>
+              </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span style="color: red;">Start:</span><span> Al-Mashalat </span></li>
+                <li class="list-group-item"><span style="color: red;">Final destination:</span><span> Sheraton Residences</span></li>
+                <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span>Al-Mashalat - Khalafawi - St. Therese - Dawaran Shubra - Rawd al-Faraj - Shubra Street - Khulusi - Massara - Ahmed Helmy - Qalli - Ramses - Ghamra - Demerdash - Abbasiya - Ain Shams University - Kobba Bridge - Khalifa al-Mamoun - Roxy - Hijaz Street - Maryland - Court - Heliopolis - Hijaz - Industrial Security - Al Watan Al Ain - Military College - Sun City - Sheraton Residences</span></li>
+                </ul>
+            </div>
+          </div>
+          <div id="bus11"class="col-10">
+            <div class="card" >
+              <div class="card-header" style="height:35px;">
+                <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; ">  BUS11</i>
+              </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span style="color: red;">Start:</span><span>  Giza Square</span></li>
+                <li class="list-group-item"><span style="color: red;">Final destination:</span><span> Haram Hill</span></li>
+                <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span>Giza Square - Faisal Street - Al-Eshreen Street - Talbeya - Al-Tawqaq - Mariouteya - Akher Faisal - Al-Ramaya Square - Residences - Recruitment - Haram Hill</span></li>
+                </ul>
+            </div>
+          </div>
+          <div id="bus12"class="col-10">
+            <div class="card" >
+              <div class="card-header" style="height:35px;">
+                <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; ">  BUS12</i>
+              </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span style="color: red;">Start:</span><span> Masaken Ain Shams </span></li>
+                <li class="list-group-item"><span style="color: red;">Final destination:</span><span> Al-Asmarat</span></li>
+                <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span>Masaken Ain Shams - Arab - Alf Maskan - Gesr Suez - Hijaz - Saint Fatima - Triumph - Seven Buildings - Nozha Street - Administrative Control - Clock Square - Abbas Al Akkad - Enppi - Seventh District - Al Sefarat District - Pepsi - Free Zone - Al-Toub Al-Ramly - Mokattam - Sobhy Hussein - Al-Asmarat</span></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="row row-cols-4 text-center justify-content-center">  
+          <div id="bus13"class="col-10">
+            <div class="card" >
+              <div class="card-header" style="height:35px;">
+                <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; ">  BUS13</i>
+              </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span style="color: red;">Start:</span><span> Um Bayoumi </span></li>
+                <li class="list-group-item"><span style="color: red;">Final destination:</span><span> Bab Al-Shariya</span></li>
+                <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span> Um Bayoumi - New Street - Mostorod - Sawah - Amiriya - Saray Al-Qobba - Al-Ganzouri Hospital - Gesr Al-Suez Signal - Roxy - Al-Khalifa Al-Mamoun - Bridge Al-Qobba - Ain Shams University - Abbassia - Abda Pasha - Al-Jaish - Bab Al-Shariya</span></li>
+                </ul>
+            </div>
+          </div>
+          <div id="bus14"class="col-10">
+            <div class="card" >
+              <div class="card-header" style="height:35px;">
+                <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; ">  BUS14</i>
+              </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span style="color: red;">Start:</span><span> Bejam </span></li>
+                <li class="list-group-item"><span style="color: red;">Final destination:</span><span> Bastil</span></li>
+                <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span>Bejam - Foundation - Shubra Al-Khaima - Orabi Bridge - Umbrellas - Khalafawi - Shubra Street - Shubra Circle - Shubra Street - Qallali - Ramses - Tahrir - Maspero - Wekalat Al-Balah - 15th of May Bridge - Zamalek - Abul Feda - Ahmed Orabi - Mosque Pepper - Bastil</span></li>
+                </ul>
+            </div>
+          </div>
+          <div id="bus15"class="col-10">
+            <div class="card" >
+              <div class="card-header" style="height:35px;">
+                <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; ">  BUS15</i>
+              </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span style="color: red;">Start:</span><span>  Lebanon Square </span></li>
+                <li class="list-group-item"><span style="color: red;">Final destination:</span><span> Unity Residences</span></li>
+                <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span>Lebanon Square - Sudan Street - Student City - Kit Kat - Agouza - Tahrir - Ambulance - Ramses - Qalali - Ahmed Helmy - Ismailia Canal - Khulusi - Shubra Street - Shubra Circle - Orabi Bridge - Umbrellas - Unity Residences</span></li>
+                </ul>
+            </div>
+          </div>
+          <div id="bus16"class="col-10">
+            <div class="card" >
+              <div class="card-header" style="height:35px;">
+                <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; ">  BUS16</i>
+              </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span style="color: red;">Start:</span><span>  Um Bayoumi</span></li>
+                <li class="list-group-item"><span style="color: red;">Final destination:</span><span> Umrania</span></li>
+                <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span>Um Bayoumi - Orabi Bridge - Faculty of Agriculture - Umbrellas - Shubra Street - Khalafawi - Al Khazindarah - Al Sahel Hospital - Ramad Hospital - Rawd Al Farag - Corniche Al Sahel - Al Bala Agency - Radio and Television - Abdel Moneim Riyad - Tahrir - Kasr Al Ainy - University Bridge - Zoo - Cairo University - Giza Square - Umrania</span></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="row row-cols-4 text-center justify-content-center">
+          <div id="bus17"class="col-10">
+            <div class="card" >
+              <div class="card-header" style="height:35px;">
+                <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; ">  BUS17</i>
+              </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span style="color: red;">Start:</span><span> Masaken Askoo </span></li>
+                <li class="list-group-item"><span style="color: red;">Final destination:</span><span> El Shorouk Residences</span></li>
+                <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span> Masaken Askoo - Bahtim - Mostorod - Al-Amriya - Sawah - Saraya Al-Qubba - Roxy - Al-Koreya - Al-Thawra Tunnel - Al-Merghani - Girls College - Khader Al-Tuni - Rabaa Al-Adawiya - Awal Abbas - Awal Makram - Ahmed Fakhry - City Stars - Al-Ahly Club - El Shorouk Residences</span></li>
+                </ul>
+            </div>
+          </div>
+          <div id="bus18"class="col-10">
+            <div class="card" >
+              <div class="card-header" style="height:35px;">
+                <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; ">  BUS18</i>
+              </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span style="color: red;">Start:</span><span> Um Bayoumi </span></li>
+                <li class="list-group-item"><span style="color: red;">Final destination:</span><span> Seventh District</span></li>
+                <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span>Um Bayoumi - Orabi Bridge - Umbrellas - Khalafawi - Shubra Street - Shubra Circle - Ahmed Helmy - Qalli - Ramses - Ghamra - Demerdash - Abbasiya - Salah Salem - Abbasiya Hospital - Ministry of Investment - Fairgrounds - Manpower - Central Auditing Organization - Al-Tayaran Street - Rabaa - Hisham Barakat - Seventh District</span></li>
+                </ul>
+            </div>
+          </div>
+          <div id="bus19"class="col-10">
+            <div class="card"  >
+              <div class="card-header" style="height:35px;">
+                <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; ">  BUS19</i>
+              </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span style="color: red;">Start:</span><span>  Imbaba</span></li>
+                <li class="list-group-item"><span style="color: red;">Final destination:</span><span> Al-Abagia</span></li>
+                <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span> Imbaba - Kit Kat - Nile Street - Agouza - Nawal Street - Cairo University - University Bridge - Kasr Al-Ainy - Diabetes Institute - Mokattam Hospital - Meray Al-Oyoun - Fum Al-Khaleej - Mrs. Aisha - Al-Abagia</span></li>
+                </ul>
+            </div>
+          </div>
+          <div id="bus20"class="col-10">
+            <div class="card"  >
+              <div class="card-header" style="height:35px;">
+                <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; ">  BUS20</i>
+              </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span style="color: red;">Start:</span><span> Zoo </span></li>
+                <li class="list-group-item"><span style="color: red;">Final destination:</span><span>  Giza Square</span></li>
+                <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span>Zoo - Cairo University - Nahdet Misr Street - Kasr Al-Ainy - Al-Tibi Bridge - Al-Sayeda Zeinab - Ahmed Maher - Al-Banat Mosque - Moski - Bab Al-Sharia - Al-Zaher - El-Geish Square - Ahmed Saeed - Abda Pasha - Abbassia - Ain Shams University - Al-Qubba Bridge - Al-Hadaek Square - Hadayek Al-Qobba Section - Al-Hawamdiya - Al-Hawamdiya Passage - Misr Assiut Agricultural Road - Um Al-Masryeen - Al-Munib Square - Rabi` Al-Gizi Street - Giza Square</span></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="row row-cols-4 text-center justify-content-center">        
+          <div id="bus21"class="col-10">
+            <div class="card"  >
+              <div class="card-header" style="height:35px;">
+                <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; ">  BUS21</i>
+              </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span style="color: red;">Start:</span><span> Al-Omraniya </span></li>
+                <li class="list-group-item"><span style="color: red;">Final destination:</span><span>  El-Khali</span></li>
+                <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span>Al-Omraniya - Umm Al-Masryeen - Giza Square - Conjunctivitis - Al-Manial - King Saleh - Fom Al-Khaleej - Cancer Institute - Ophthalmology Institute - Al-Mokattam Hospital - Mrs. Aisha - Salah Al-Din - Al-Bibani - Ahmed Maher - Al-Banat Mosque - Muskie - Bab Al-Shariya - Al-Zaher El-Geish Square - Ahmed Saeed - Abdo Pasha - Abbasseya - Ain Shams University - El-Kobba Bridge - El-Khali</span></li>
+                </ul>
+            </div>
+          </div>
+          <div id="bus22"class="col-10">
+            <div class="card"  >
+              <div class="card-header" style="height:35px;">
+                <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; ">  BUS22</i>
+              </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span style="color: red;">Start:</span><span>  Kafr Tohormos</span></li>
+                <li class="list-group-item"><span style="color: red;">Final destination:</span><span> Department of Gardens</span></li>
+                <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span> Kafr Tohormos - Faisal Street - Giza Square - Cairo University - Zoo - Kasr Al-Ainy - Al-Sayyida Zainab - Ahmed Maher - Bab Al-Khalq - Al-Banat Mosque - Moski - Bab Al-Shariya - Al-Zahir - Al-Jaish - Ahmed Saeed - Egypt and Sudan - Abda Pasha - Abbassia - Ain Shams University - Crown Prince - Department of Gardens</span></li>
+                </ul>
+            </div>
+          </div>
+          <div id="bus23"class="col-10">
+            <div class="card"  >
+              <div class="card-header" style="height:35px;">
+                <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; ">  BUS23</i>
+              </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span style="color: red;">Start:</span><span> Shabramant  </span></li>
+                <li class="list-group-item"><span style="color: red;">Final destination:</span><span> Study</span></li>
+                <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span> Shabramant - Abu Nomros - Al-Saeed Road - Al-Munib - Umm Al-Masryeen - Giza Square - Zoo - Cairo University - Kasr Al-Ainy - Al-Tibi Bridge - Al-Sad Street - Al-Sayyida Zeinab - Ahmed Maher - Al-Banat Mosque - Muskie - Bab Al-Shariya - Al-Jaish Street - Al-Halabi Square - Study</span></li>
+                </ul>
+            </div>
+          </div>
+          <div id="bus24"class="col-10">
+            <div class="card"  >
+              <div class="card-header" style="height:35px;">
+                <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; ">  BUS24</i>
+              </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span style="color: red;">Start:</span><span> Al-Shorouk Residences </span></li>
+                <li class="list-group-item"><span style="color: red;">Final destination:</span><span> Tahrir</span></li>
+                <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span>Al-Shorouk Residences - Al-Ahly Club - Ahmed Fakhry - Service Institute - Awal Makram - Awal Abbas - Rabaa Al-Adawiya - Al-Azhar University - Al-Sikkah Club - Ministry of Finance - Abbasiya - Demerdash - Metro - Ghamra - Ramses - Ambulance - Tahrir</span></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="row row-cols-4 text-center justify-content-center">
+          <div id="bus25"class="col-10">
+            <div class="card"  >
+              <div class="card-header" style="height:35px;">
+                <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; ">  BUS25</i>
+              </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span style="color: red;">Start:</span><span> Bejam </span></li>
+                <li class="list-group-item"><span style="color: red;">Final destination:</span><span> Al-Shorouk Residences</span></li>
+                <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span>Bejam - Foundation - Shubra Al-Khaima - Al-Jadeed Street - Mostorod - Mataria - Helmiyat Al-Zaytoun - Recruitment - Court - Safir - Al-Galaa Club - The Seven Buildings - Administrative Control - First Abbas - Al-Sa'a Square - First Makram - Institute of Social Work - Ahmed Fakhry - Al-Ahly Club - Al-Shorouk Residences</span></li>
+                </ul>
+            </div>
+          </div>
+          <div id="bus26"class="col-10">
+            <div class="card"  >
+              <div class="card-header" style="height:35px;">
+                <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; ">  BUS26</i>
+              </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span style="color: red;">Start:</span><span>  Umm Bayoumi</span></li>
+                <li class="list-group-item"><span style="color: red;">Final destination:</span><span> Liberation</span></li>
+                <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span>Umm Bayoumi - Orabi Bridge - Umbrellas - Khalafawi - Shubra Circle - Massara - Shubra Street - Ahmed Helmy - Qally - Ramses - Ambulance - Liberation</span></li>
+                </ul>
+            </div>
+          </div>
+          <div id="bus27"class="col-10">
+            <div class="card"  >
+              <div class="card-header" style="height:35px;">
+                <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; ">  BUS27</i>
+              </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span style="color: red;">Start:</span><span> New Mostorod Stop </span></li>
+                <li class="list-group-item"><span style="color: red;">Final destination:</span><span> Giza Square</span></li>
+                <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span> New Mostorod Stop - New Obelisk - Cables - Al-Rashah - Mataria - Sawah - Saudia Square - Hadayek Al-Qubba - Metro - Egypt and Sudan - Ahmed Saeed - Al-Jaish Square - Al-Zahir - Bab Al-Shariya - Moski - Al-Banat Mosque - Bab Al-Khalq - Ahmed Maher - Sayeda Zeinab - Kasr Al-Ainy - Zoo - Cairo University - Giza Square</span></li>
+                </ul>
+            </div>
+          </div>
+          <div id="bus28"class="col-10">
+            <div class="card"  >
+              <div class="card-header" style="height:35px;">
+                <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; ">  BUS28</i>
+              </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span style="color: red;">Start:</span><span>  Zahraa Ain Shams</span></li>
+                <li class="list-group-item"><span style="color: red;">Final destination:</span><span> The Citadel</span></li>
+                <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span>Zahraa Ain Shams - Ain Shams Street - An Naam - Helmiyat Al Zaytoun - Salim Al Awal Street - Ibn Sander - Saray Al Qobba - Al Qobba Bridge - Al Khalifa Al Maamoun - Ain Shams University - Abbasiya - Abdo Pasha - El Geish Square - Ahmed Saeed - Al Zaher - Bab Poetry - Muski - Bab Al-Khalq - Ahmed Maher - Mrs. Zeinab - Mrs. Aisha - The Citadel</span></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="row row-cols-4 text-center justify-content-center">
+          <div id="bus29"class="col-10">
+            <div class="card"  >
+              <div class="card-header" style="height:35px;">
+                <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; ">  BUS29</i>
+              </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span style="color: red;">Start:</span><span>  Othman Residences</span></li>
+                <li class="list-group-item"><span style="color: red;">Final destination:</span><span> Study</span></li>
+                <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span>Othman Residences - Ezbet El Nakhl - Ezbet El Nakhl Metro - Ain Shams Street - Helmya - Recruitment - Suez Bridge - Al Qubba Bridge - Ain Shams University - Ain Shams Hospital - Abbasia - Abdou Pasha - El Geish Square - Al Azhar Presbytery - Halabi Square - Study</span></li>
+                </ul>
+            </div>
+          </div>
+          <div id="bus30"class="col-10">
+            <div class="card"  >
+              <div class="card-header" style="height:35px;">
+                <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; ">  BUS30</i>
+              </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span style="color: red;">Start:</span><span>  Abu Al-Nomros</span></li>
+                <li class="list-group-item"><span style="color: red;">Final destination:</span><span> Study</span></li>
+                <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span>Abu Al-Nomros - Al-Saeed Road - Al-Bahr Al-Azam - Al-Munib - Um Al-Masryeen - Giza Square - Cairo University - Zoo - Kasr Al-Ainy - Al-Tibi Bridge - Al-Sad Street - Al-Sayyida Zeinab - Ahmed Maher - Al-Banat Mosque - Muskie - Bab Al-Shariya - Street Army - Al-Halabi Square - Study</span></li>
+                </ul>
+            </div>
+          </div>
+          <div id="bus31"class="col-10">
+            <div class="card"  >
+              <div class="card-header" style="height:35px;">
+                <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; ">  BUS31</i>
+              </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span style="color: red;">Start:</span><span> Al-Omraniya </span></li>
+                <li class="list-group-item"><span style="color: red;">Final destination:</span><span> First Settlement</span></li>
+                <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span>Al-Omraniya - Umm Al-Masryeen - Giza Square - University Bridge - Cairo University - Zoo - Beginning of Manial - Al-Qasr Al-Ainy - Tahrir - Ambulance - Ramses - Ghamra - Demerdash - Abbasiya - Ministry of Finance - Al-Sikkah Club - Al-Azhar University - Rabaa - Hisham Barakat - Nasr Road - Tiba Mall - Clock Square - Abbas El Akkad - Mostafa El Nahas - Eighth District - Al Manhal - Tabba - Tenth District - Zahraa Nasr City - Police Academy - Lulu Hypermarket - Youth Tray - First Settlement</span></li>
+                </ul>
+            </div>
+          </div>
+          <div id="bus32"class="col-10">
+            <div class="card"  >
+              <div class="card-header" style="height:35px;">
+                <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; ">  BUS32</i>
+              </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span style="color: red;">Start:</span><span>  Saft Al-Laban </span></li>
+                <li class="list-group-item"><span style="color: red;">Final destination:</span><span> New Nozha</span></li>
+                <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span>Saft Al-Laban - Al-Shorbagy - Zenin - Al-Eshreen - Cairo University - Zoo - Al-Qasr Al-Ainy - Al-Sayeda Zainab - Bab Al-Khalq - Ahmed Maher - Al-Banat Mosque - Moski - Bab Al-Shaariya - Al-Zahir - Al-Jaish Street - Al-Jaish Square - Abdo Pasha - Abbasia - Ain Shams University - Al-Qobba Bridge - Al-Khalifa Al-Mamoun - Roxy - Maryland - Court - Heliopolis - Hijaz Square - Alf Maskan - Arabs - Garage - New Nozha</span></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="row row-cols-4 text-center justify-content-center">
+          <div id="bus33"class="col-10">
+            <div class="card"  >
+              <div class="card-header" style="height:35px;">
+                <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; ">  BUS33</i>
+              </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span style="color: red;">Start:</span><span> Kafr Tohormos  </span></li>
+                <li class="list-group-item"><span style="color: red;">Final destination:</span><span> 4.5 km </span></li>
+                <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span>Kafr Tohormos - Talbeya Street - Faisal Street - Giza Square - Ramad - Manial - King Saleh - Fom Al Khaleej - Oncology Institute - Mokattam Hospital - Mrs. Aisha - Al Mansheya - Zalqan Al Duwaiqa - Al Mokawloon - Al Seka Club - Al Azhar University - Rabaa - Hisham Barakat - Nasr Road - Tiba Mall - First Abbas - First Makram - City Stars - Ahmed Fakhry - Al Ahly Club - Ezbet El Hagana - 4.5 km</span></li>
+                </ul>
+            </div>
+          </div>
+          <div id="bus34"class="col-10">
+            <div class="card"  >
+              <div class="card-header" style="height:35px;">
+                <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; ">  BUS34</i>
+              </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span style="color: red;">Start:</span><span>  Al-Munib </span></li>
+                <li class="list-group-item"><span style="color: red;">Final destination:</span><span> Ain Shams Residences</span></li>
+                <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span> Al-Munib - Umm Al-Masryeen - Giza Square - Cairo University - Zoo - Kasr Al-Ainy - Al-Tibi Bridge - Al-Sad Street - Al-Sayeda Zeinab - Bab Al-Khalq - Ahmed Maher - Al-Banat Mosque - Moski - Bab Al-Shaariya - Al-Zahir - Al-Jaish Square - Abdo Pasha - Abbassia - Ain Shams University - Dome Bridge - Caliph Al-Ma'mun - Roxy - Al-Ahram - Korba - Salah El-Din - Safir - Triumph - Saint Fatima - Hijaz - Alf Maskan - Arabs of the Bridge - Garage - Ain Shams Residences</span></li>
+                </ul>
+            </div>
+          </div>
+          <div id="bus35"class="col-10">
+            <div class="card"  >
+              <div class="card-header" style="height:35px;">
+                <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; ">  BUS35</i>
+              </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span style="color: red;">Start:</span><span> Zenin </span></li>
+                <li class="list-group-item"><span style="color: red;">Final destination:</span><span> Al-Tabba</span></li>
+                <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span>Zenin - Twenty - Cairo University - Zoo - Kasr Al-Ainy - Abdel Moneim Riyad - Tahrir - Ambulance - Ramses - Ghamra - Demerdash - Abbasiya - Salah Salem - Aviation Street - Rabaa - Hisham Barakat - Health Insurance - Nuri Khattab - Mustafa Al-Nahhas - Eighth District - Al-Manhal - Al-Tabba</span></li>
+                </ul>
+            </div>
+          </div>
+          <div id="bus36"class="col-10">
+            <div class="card"  >
+              <div class="card-header" style="height:35px;">
+                <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; ">  BUS36</i>
+              </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span style="color: red;">Start:</span><span>  Cairo University</span></li>
+                <li class="list-group-item"><span style="color: red;">Final destination:</span><span> Abbassiya</span></li>
+                <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span>Cairo University - Sadat - Al Shuhada - Ghamra - Demerdash - Abbassiya</span></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="row row-cols-4 text-center justify-content-center">
+          <div id="bus37"class="col-10">
+            <div class="card"  >
+              <div class="card-header" style="height:35px;">
+                <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; ">  BUS37</i>
+              </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span style="color: red;">Start:</span><span>  Othman Residences</span></li>
+                <li class="list-group-item"><span style="color: red;">Final destination:</span><span> Bus threshold</span></li>
+                <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span>Othman Residences - Ezbet Al-Nakhl - two slides Ain Shams - Zahraa Ain Shams - Ain Shams Street - Al-Naam - Helmya - Salim Al-Awal Street - Toman Bay Street - Al-Zaytoun - Saray Al-Qobba - Hadayek Al-Qobba - Al-Demerdash Metro - Misr and Sudan Street - Ahmed Saeed - El-Geish Square - Bab El-Shereia - Bus threshold</span></li>
+                </ul>
+            </div>
+          </div>
+          <div id="bus38"class="col-10">
+            <div class="card"  >
+              <div class="card-header" style="height:35px;">
+                <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; ">  BUS38</i>
+              </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span style="color: red;">Start:</span><span>  El Omrania</span></li>
+                <li class="list-group-item"><span style="color: red;">Final destination:</span><span> Mokattam</span></li>
+                <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span>El Omrania - El Konisa - Um El Masreen - Giza Square - Cairo University - Zoo - Kasr El Ainy - El Tibi Bridge - Al Sad Street - Sayeda Zeinab - Ahmed Maher - Girls Mosque - Moski - Bab El Shereya - Al-Zahir - Al-Jaish Street - Abda Pasha - Abbasiya - Ministry of Finance - Al-Sikkah Club - Al-Azhar University - Rabaa - Hisham Barakat - Nuri Khattab - Health Insurance - Seventh District - Al Sefarat - Free Zone - Resala Association - End of Street No. 9 - Mokattam</span></li>
+                </ul>
+            </div>
+          </div>
+          <div id="bus39"class="col-10">
+            <div class="card"  >
+              <div class="card-header" style="height:35px;">
+                <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; ">  BUS39</i>
+              </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span style="color: red;">Start:</span><span>  Al-Omraniya</span></li>
+                <li class="list-group-item"><span style="color: red;">Final destination:</span><span> Oasis</span></li>
+                <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span>Al-Omraniya - Al-Kunisa - Umm Al-Masryeen - Giza Square - Ramad - Al-Manial - King Saleh - Mouth Al-Khaleej - Oncology Institute - Ophthalmic Course - Al-Mokattam Hospital - Mrs. Aisha - Al-Mansheya - Zalqan Al-Duwayqa - The Arab Contractors - Al-Sika Club - Al-Azhar University - Rabaa - Hisham Barakat - Health Insurance - Nouri Khattab - Mostafa El Nahas - Eighth District - L Manhal - Tabba - Tenth District - Mahdi Arafa Street - Oasis </span></li>
+                </ul>
+            </div>
+          </div>
+          <div id="bus40"class="col-10">
+            <div class="card"  >
+              <div class="card-header" style="height:35px;">
+                <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; ">  BUS40</i>
+              </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span style="color: red;">Start:</span><span>  Riyad</span></li>
+                <li class="list-group-item"><span style="color: red;">Final destination:</span><span> New Nozha</span></li>
+                <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span>Riyad - Ambulance - Ramses - Ghamra - Abbassiya - Ain Shams University - Kwer Al-Qobba - Al-Khalifa Al-Mamoun - Roxy - Miraland - Heliopolis - Court - Hijaz - A thousand dwellings - Arabs - Garage - New Nozha</span></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="row row-cols-4 text-center justify-content-center">  
+          <div id="bus41"class="col-10">
+            <div class="card"  >
+              <div class="card-header" style="height:35px;">
+                <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; ">  BUS41</i>
+              </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span style="color: red;">Start:</span><span> Al-Mutabaa  </span></li>
+                <li class="list-group-item"><span style="color: red;">Final destination:</span><span> First Settlement</span></li>
+                <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span>Al-Mutabaa - Maadi Hospital - Andrea - Tenth Bridge - Al-Fustat Residences - Tourism Police - Al-Khayaliyya - Champions Club - Mrs. Aisha - Al-Mansheya - Al-Duwayqa - The Arab Contractors - Al-Sikkah Club - Al-Azhar University - Rabaa - Health Insurance - Nuri Khattab - Mostafa Al-Nahhas - Eighth District - Al-Manhal - Al-Salam Mosque - Car Market - Gates - Tenth District - Zahraa Nasr City - First Settlement</span></li>
+                </ul>
+            </div>
+          </div>
+          <div id="bus42"class="col-10">
+            <div class="card"  >
+              <div class="card-header" style="height:35px;">
+                <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; ">  BUS42</i>
+              </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span style="color: red;">Start:</span><span> Motcian </span></li>
+                <li class="list-group-item"><span style="color: red;">Final destination:</span><span> Masaken Al-Shorouk</span></li>
+                <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span>Motcian - Cairo University - Khashab Bridge - Sudan Street - Bulaq Al-Dakrour - Nahia - League of Arab States - The first shooting star - Mostafa Mahmoud - Corniche - Balloon Accelerator - Dokki - Police Square - Sphinx - Mohandseen - Agouza - El Galaa Square - October Bridge - Ambulance - Ramses - Ghamra - Demerdash - Abbasia - Salah Salem - Youssef Abbas - Khader El Touny - Al Tayaran Street - Rabaa - Al-Sa'a Square - First Abbas - First Makram - Ahmed Fakhry - Alan Al-Ahly Valley - Al-Taqqa Street - Masaken Al-Shorouk</span></li>
+                </ul>
+            </div>
+          </div>
+          <div id="bus43"class="col-10">
+            <div class="card"  >
+              <div class="card-header" style="height:35px;">
+                <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; ">  BUS43</i>
+              </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span style="color: red;">Start:</span><span>  Shubra Circle</span></li>
+                <li class="list-group-item"><span style="color: red;">Final destination:</span><span> Dar Misr</span></li>
+                <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span>Shubra Circle - Umbrellas - Abboud - Amiriya - Sawa - Saray Al-Qubba - Roxy - Al-Ahram Street - Korba - Al-Thawra Tunnel - Almaza Central - The Seven Buildings - Al-Nuzha Street - Administrative Control - Clock Square - Abbas Al-Akkad - International Garden - Mostafa Al-Nahhas - Eighth District - Al-Manhal - Al-Tabbah - Tenth District - Zahraa Nasr City - First Settlement - Youth Tray - Al-Rehab - Gate 9. 6 . 24 . 23 - Dar Misr</span></li>
+                </ul>
+            </div>
+          </div>
+          <div id="bus44"class="col-10">
+            <div class="card"  >
+              <div class="card-header" style="height:35px;">
+                <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; ">  BUS44</i>
+              </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span style="color: red;">Start:</span><span>  Arab Maadi</span></li>
+                <li class="list-group-item"><span style="color: red;">Final destination:</span><span>  Al-Zawiya Al-Hamra</span></li>
+                <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span>Arab Maadi - Al-Basateen - Al-Sayeda Aisha - Qadri Street - Al-Houd Al-Marsous - Ahmed Maher - Bab Al-Khalq - Al-Banat Mosque - Moski - Bab Al-Shariya - Sayed Jalal Square - Al-Zahir - Ghamra Bridge - Al-Shader - Irons - Gaza Market - Qusayreen - Fodder - Port Said Street - Al-Zawiya Al-Hamra</span></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="row row-cols-4 text-center justify-content-center">
+          <div id="bus45"class="col-10">
+            <div class="card"  >
+              <div class="card-header" style="height:35px;">
+                <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; ">  BUS45</i>
+              </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span style="color: red;">Start:</span><span>  Zenin</span></li>
+                <li class="list-group-item"><span style="color: red;">Final destination:</span><span> 4.5 km</span></li>
+                <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span>Zenin - Al-Eshreen Street - Tharwat Bridge - Bab Tejara - Cairo University - Dokki - Tahrir Street - Corniche - October Bridge - Ambulance - Ramses - Ghamra - Abbassia - Salah Salem - Aviation Street Rabaa - First Abbas - First Makram - Ahmed Fakhry - Al Ahly Club - Ezbet El Hagana - 4.5 km</span></li>
+                </ul>
+            </div>
+          </div>
+          <div id="bus46"class="col-10">
+            <div class="card"  >
+              <div class="card-header" style="height:35px;">
+                <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; ">  BUS46</i>
+              </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span style="color: red;">Start:</span><span> Zenin </span></li>
+                <li class="list-group-item"><span style="color: red;">Final destination:</span><span> Gate 6</span></li>
+                <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span> Zenin - K Tharwat - Gate of Trade - Cairo University - Zoo - Kasr El Ainy - Editing - M Abdel Moneim Riyad - Ambulance - Ramses - Ghamra - Demerdash - Abbasia - Ministry of Finance - Sekka Club - Al-Azhar University - Rabaa Al-Adawiya - Hisham Barakat - Health Insurance - Nuri Khattab - Seventh District - Zakir Hussein - Enppi - Loyalty and Hope - Ahmed Al-Zomor - Al-Salam Mosque - Car Market - Gates - Tenth District - Zahraa Nasr City - Al Mithaq Street - Sanya Al Shabab - First Settlement - Al Rehab - Gate 6</span></li>
+                </ul>
+            </div>
+          </div>
+          <div id="bus47"class="col-10">
+            <div class="card"  >
+              <div class="card-header" style="height:35px;">
+                <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; ">  BUS47</i>
+              </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span style="color: red;">Start:</span><span> Zenin </span></li>
+                <li class="list-group-item"><span style="color: red;">Final destination:</span><span> Ain Shams Residences</span></li>
+                <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span>Zenin - Twenty Street - K Tharwat - Bab Tejara - Cairo University - Zoo - Kasr Al Ainy - K Al Tibi - Al Sadd Street - Abu Al Reesh - Sayeda Zeinab - Bab Al Khalq - M Ahmed Maher - Girls Mosque - Moski - Bab Al Sharia - Al-Zaher - El-Gish St. - M Abdo Pasha - Abbasia - C Ain Shams - K Al-Qubba - Al-Khalifa Al-Mamoun - Roxy - Maryland - Heliopolis - Court - M Al-Hijaz - Alf Maskan - Arabs - Garage - Ain Shams Residences</span></li>
+                </ul>
+            </div>
+          </div>
+          <div id="bus48"class="col-10">
+            <div class="card"  >
+              <div class="card-header" style="height:35px;">
+                <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; ">  BUS48</i>
+              </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span style="color: red;">Start:</span><span> Saft Al-Laban </span></li>
+                <li class="list-group-item"><span style="color: red;">Final destination:</span><span> Umbrellas</span></li>
+                <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span>Saft Al-Laban - Al-Shorbagy - Zenin - Twenty - K Tharwat - Gate of Trade - Cairo University - Zoo - Dokki - Al-Batal Ahmed Abdel Aziz Street - League of Arab States - Sphinx Square - Mohandseen - Zamalek - 15th of May Bridge - Wekalat Al-Balah - Maspero - Editing - Ambulance - Ramses - Qalli - Ahmed Helmy - Shubra Street - Shubra Circle - Khalafawi - Umbrellas</span></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="row row-cols-4 text-center justify-content-center">
+          <div id="bus49"class="col-10">
+            <div class="card"  >
+              <div class="card-header" style="height:35px;">
+                <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; ">  BUS49</i>
+              </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span style="color: red;">Start:</span><span> Cairo University </span></li>
+                <li class="list-group-item"><span style="color: red;">Final destination:</span><span> Abbassia</span></li>
+                <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span> Cairo University - Sadat - Al Shuhada - Ghamra - Demerdash - Abbassia</span></li>
+                </ul>
+            </div>
+          </div>
+          <div id="bus50"class="col-10">
+            <div class="card"  >
+              <div class="card-header" style="height:35px;">
+                <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; ">  BUS50</i>
+              </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span style="color: red;">Start:</span><span> Mariouteya  </span></li>
+                <li class="list-group-item"><span style="color: red;">Final destination:</span><span> Seventh District</span></li>
+                <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span>Mariouteya - Haram Street - Giza Square - Cairo University - Zoo - Kasr Al-Ainy - Fam Gulf - Oncology Institute - Ophthalmology - Mokattam Hospital - Mrs. Aisha - Mansheya - Mzlaqan Al-Duwayqa - Arab Contractors B - Al-Sikkah Club - Al-Azhar University - Rabaa Al-Adawiya - Hisham Barakat - Health Insurance - Nuri Khattab - Seventh District</span></li>
+                </ul>
+            </div>
+          </div>
+          <div id="bus51"class="col-10">
+            <div class="card"  >
+              <div class="card-header" style="height:35px;">
+                <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; ">  BUS51</i>
+              </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span style="color: red;">Start:</span><span> Saqr Quraish </span></li>
+                <li class="list-group-item"><span style="color: red;">Final destination:</span><span>  Sheraton Residences</span></li>
+                <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span>Saqr Quraish - Al-Basateen - Mrs. Aisha - Qadri Street - Mrs. Zeinab - Bab Al-Khalq - Ahmed Maher - Muski - Bab Al-Shariya - Al-Zahir - Al-Jaish Street - Abdo Pasha - Abbasiya - Ain Shams University - Kobba Bridge - Al-Khalifa Al-Mamoun - Roxy - Al-Mirghani - Al-Ahram Street - Korba - Al-Gamea Square - Ismailia - Safir - Triumph - Saint Fatima - Hijaz Square - Military College Stadium - Sheraton Residences </span></li>
+                </ul>
+            </div>
+          </div>
+          <div id="bus52"class="col-10">
+            <div class="card"  >
+              <div class="card-header" style="height:35px;">
+                <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; ">  BUS52</i>
+              </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span style="color: red;">Start:</span><span> Picchu </span></li>
+                <li class="list-group-item"><span style="color: red;">Final destination:</span><span>  Elm</span></li>
+                <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span>Picchu - Zahraa El Maadi - Al Zahraa Tunnel - Al Arab Street 77 - Maadi Bridge - Al Horreya Square - Misr Helwan Agricultural - Elm</span></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="row row-cols-4 text-center justify-content-center">
+          <div id="bus53"class="col-10">
+            <div class="card"  >
+              <div class="card-header" style="height:35px;">
+                <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; ">  BUS53</i>
+              </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span style="color: red;">Start:</span><span>  </span></li>
+                <li class="list-group-item"><span style="color: red;">Final destination:</span><span> </span></li>
+                <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span></span></li>
+                </ul>
+            </div>
+          </div>
+          <div id="bus54"class="col-10">
+            <div class="card"  >
+              <div class="card-header" style="height:35px;">
+                <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; ">  BUS54</i>
+              </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span style="color: red;">Start:</span><span>  </span></li>
+                <li class="list-group-item"><span style="color: red;">Final destination:</span><span> </span></li>
+                <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span></span></li>
+                </ul>
+            </div>
+          </div>
+          <div id="bus55"class="col-10">
+            <div class="card"  >
+              <div class="card-header" style="height:35px;">
+                <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; ">  BUS55</i>
+              </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span style="color: red;">Start:</span><span>  </span></li>
+                <li class="list-group-item"><span style="color: red;">Final destination:</span><span> </span></li>
+                <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span></span></li>
+                </ul>
+            </div>
+          </div>
+          <div id="bus56"class="col-10" >
+            <div class="card"  >
+              <div class="card-header" style="height:35px;">
+                <i class="bi bi-bus-front h-100" style="color: red; left: 30%;  right: 30%; position: absolute; ">  BUS56</i>
+              </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span style="color: red;">Start:</span><span>  </span></li>
+                <li class="list-group-item"><span style="color: red;">Final destination:</span><span> </span></li>
+                <li class="list-group-item" style="text-align: center;"><span style="color: red;"><i class="bi bi-bus-front-fill " style="color: black;"></i> Stops</span><br><span></span></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="container-fluid  bg-dark h-25 ">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                  <h3 style="color: white;">Egbuses</h3>
+                </div>
+                <div class="col-lg-4 d-flex flex-column column-1 col-6 text-start ">
+                    <a href="#">Abram Mina </a>
+                    <a href="#">Nada Karam</a>
+                    <a href="#">Mai Gamal</a>
+                    <a href="#">Menna Sayed</a>
+                    <a href="#">Kerolles Shehata</a>
+                </div>
+      
+               
+      
+                <div class="col-lg-4 d-flex flex-column column-2 col-12 text-start justify-content-center">
+                    
+                    <div class="text">
+                        <h5 class="text-light">Contact Us</h5>
+                        <p >Email: Egbuses.com@gmail.com</p>
+                        <p >Phone: +20 1270963278</p>
+      
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/profile.php?id=100089909653059&mibextid=ZbWKwL"><ion-icon name="logo-facebook" class="facebook"></ion-icon></a>
+                            <a href="https://instagram.com/webbrical?igshid=YmMyMTA2M2Y="><ion-icon name="logo-instagram" class="insta"></ion-icon></a>
+                            
+                        </div>
+                    </div>
+      
+                </div>
+            </div>
+      
+            <div class="row text-center mt-5">
+                <div class="col column-3">
+                    <h6>developed by EGbuses Team </h6>
+                </div>
+            </div>
+        </div>
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="main2.js"></script>
+    <script src="EGbuses.js"></script>
+    <script>var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+      var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+        return new bootstrap.Popover(popoverTriggerEl)
+      })
+      document.getElementById('theme-toggle').addEventListener('click', (e) => {
+    const checked = e.target.checked;
+    document.body.setAttribute('theme', checked ? 'dark':'light');
+  });
+      </script>
+</body>
+</html>
